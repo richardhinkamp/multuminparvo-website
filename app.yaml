@@ -13,5 +13,13 @@ handlers:
   static_files: robots.txt
   upload: robots.txt 
 
-- url: .*
-  script: main.py
+- url: /index.html
+  static_files: index.html
+  upload: index.html
+
+- url: /
+  static_files: index.html
+  upload: index.html
+
+#- url: .*
+#  script: main.py

@@ -1,0 +1,17 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    font-family: Arial, helvetica, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    min-height: 100%;
+}
+
+a {
+    color: #4e4e4e;
+}
